@@ -8,11 +8,11 @@ spec:
   replicas: {{ .Values.replicaCount}}
   selector:
     matchLabels:
-      app: {{ .Release.Name }}-app
+      project: {{ .Release.Name }}
   template:
     metadata:
       labels:
-        app: {{ .Release.Name }}-app
+        project: {{ .Release.Name }}
     spec:
       containers:
         - name : {{ .Release.Name }}-web

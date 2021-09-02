@@ -6,6 +6,4 @@ metadata:
   labels:
     app: {{ .Release.Name }}-app
 data:
-key1: 123
-key2: userdb
-key3: 123
+  {{- toYaml .Values.configMap | nindent 2 }}

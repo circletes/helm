@@ -5,3 +5,9 @@ container:
   tag: init
 environment: dev
 
+service:
+  port: 8080
+  targetport: 8080
+
+ingress:
+  servicePort: 8080

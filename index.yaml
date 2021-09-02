@@ -2,12 +2,12 @@ apiVersion: v1
 entries:
   my-first:
   - apiVersion: v2
-    created: "2021-09-02T23:10:03.860140389+03:00"
+    created: "2021-09-02T23:32:02.43807807+03:00"
     description: Base web app deployment.
-    digest: 99a665b54bc1aca839c6ee7ff5622ab9cccb78308f2d96180158a80385898168
+    digest: 8683524bd897efa6b9feeffe022ad26fae5ae8cb804160df91e9f7fd90d37aae
     name: my-first
     type: application
     urls:
     - my-first-2.tgz
     version: "2"
-generated: "2021-09-02T23:10:03.859745847+03:00"
+generated: "2021-09-02T23:32:02.437735089+03:00"

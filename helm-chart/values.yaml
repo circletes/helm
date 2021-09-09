@@ -1,7 +1,7 @@
 replicaCount: 3
 
 container:
-  image: eu.gcr.io/citric-earth-319117/webbb
+  image: eu.gcr.io/citric-earth-319117/address-book/dev
   tag: init
 environment: dev
 

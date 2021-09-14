@@ -3,7 +3,8 @@ replicaCount: 3
 container:
   image: eu.gcr.io/citric-earth-319117/address-book/prod
   tag: init
-environment: dev
+  containerPort: 8080
+environment: prod
 
 service:
   port: 8080

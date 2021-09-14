@@ -5,5 +5,5 @@ metadata:
   namespace: {{ .Release.Namespace | default "default" | lower }}
 spec:
   backend:
-    serviceName: {{ .Release.Name }}-service
+    serviceName: {{ .Release.Name }}-prod-service
     servicePort: {{ .Values.ingress.servicePort }}
